@@ -1,0 +1,7 @@
+{
+  "name": "ca.zyntaks.texttextureamateur.Editor",
+  "references": [
+    "Unity.TextMeshPro",
+    "Unity.TextMeshPro.Editor"
+  ]
+}

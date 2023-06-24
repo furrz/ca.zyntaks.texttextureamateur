@@ -1,0 +1,12 @@
+{
+  "name": "ca.zyntaks.texttextureamateur",
+  "version": "1.0.0",
+  "displayName": "TextTextureAmateur",
+  "description": "Generate text textures directly in the editor using TextMeshPro. Good for use in VRChat avatars.",
+  "author": "Zyntaks (https://twitter.com/PrinceZyntaks)",
+  "license": "MIT",
+  "dependencies": {
+    "com.unity.textmeshpro": "2.1.0"
+  },
+  "unity": "2019.4"
+}
