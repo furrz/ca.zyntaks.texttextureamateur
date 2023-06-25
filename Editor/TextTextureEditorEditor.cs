@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using TMPro.EditorUtilities;
 using UnityEditor;
 using UnityEditor.UIElements;
@@ -13,9 +14,8 @@ namespace Editor
         {
             var root = new VisualElement();
 
-            var headerBox = new HelpBox
+            var headerBox = new Box
             {
-                messageType = HelpBoxMessageType.None,
                 style =
                 {
                     paddingBottom = 10,
@@ -90,3 +90,4 @@ namespace Editor
         }
     }
 }
+#endif
